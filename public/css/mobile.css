@@ -1,0 +1,29 @@
+@media only screen and (max-width: 599px) {
+    .custom-service-box {
+        width: 80px;
+        height: 80px;
+    }
+
+    .product-image-box {
+        height: 400px;
+        width: 400px;
+    }
+    .single-product {
+        height: 400px;
+        width: 400px;
+    }
+    .my-custom h1 {
+        font-size: 30px;
+        letter-spacing: 10px;
+    }
+    .slider-image {
+        height: 300px;
+    }
+    .my-custom {
+        margin: 90px 0;
+        height: 300px;
+    }
+    .slider {
+        height: 300px;
+    }
+}

@@ -1,0 +1,284 @@
+* {
+    padding: 0;
+    margin: 0;
+    outline: 0;
+    border: 0;
+}
+
+/* ------------------------------- common  */
+.a-hover {
+    text-decoration: none;
+    color: black;
+}
+
+.a-hover:hover {
+    text-decoration: none;
+}
+
+/* -------colors start */
+
+.brand-dark {
+    background-color: #c50308;
+}
+
+/* -------colors end */
+
+.letter-specing-5 {
+    letter-spacing: 5px;
+}
+
+.custom-btn-hover {
+    transition: 0.5s linear;
+    color: white !important;
+}
+
+.btn-hover {
+    transition: 0.5s ease-out;
+    color: white;
+}
+
+.btn-hover:hover {
+    background-color: white !important;
+    color: black !important;
+}
+
+/* ------------------------------- menu  */
+
+.mobilemenu {
+    display: none;
+}
+
+.sub-menu {
+    display: none;
+    position: absolute;
+    width: 100%;
+    transition: 0.5s ease-out;
+    z-index: 10;
+}
+
+.mobile-sub-menu {
+    display: none;
+    width: 100%;
+    transition: 0.5s ease-out;
+    z-index: 10;
+}
+
+.sub-sub-menu {
+    position: absolute;
+    width: 100%;
+    transition: 0.5s ease-out;
+    z-index: 10;
+    display: none;
+    margin-left: 110px;
+    margin-top: -32px;
+}
+
+.mobile-sub-sub-menu {
+    position: relative;
+    width: 100%;
+    transition: 0.5s ease-out;
+    z-index: 10;
+    display: none;
+    margin-left: 0px;
+    margin-top: 0;
+}
+
+.sub-menu li,
+.sub-sub-menu li,
+.mobile-sub-menu li,
+.mobile-sub-sub-menu li {
+    background-color: black;
+    color: white;
+    cursor: pointer;
+    list-style: none;
+}
+
+.custom-dropdown:hover > .sub-menu {
+    display: block;
+}
+
+.custom-dropdown:hover > .sub-sub-menu {
+    display: block;
+}
+
+.custom-dropdown:hover > .mobile-sub-menu {
+    display: block;
+}
+
+.custom-dropdown:hover > .mobile-sub-sub-menu {
+    display: block;
+}
+
+/* --------------------------hero  */
+.slider {
+    height: 600px;
+}
+
+.slider-image {
+    opacity: 90%;
+    height: 600px;
+}
+
+.my-custom {
+    margin: 250px 0;
+    height: 600px;
+    z-index: 4;
+}
+
+.my-custom h1 {
+    letter-spacing: 20px;
+    font-size: 60px;
+    color: white;
+    font-weight: bolder;
+}
+
+.my-custom a {
+    text-decoration: none;
+}
+
+/* ----------------------------------- category */
+.category-p {
+    letter-spacing: 5px;
+    color: blue;
+    text-align: center;
+}
+
+/* --------------------------------------- service */
+.custom-service-box {
+    border-radius: 100px;
+    width: 100px;
+    height: 100px;
+    border: 2px dotted white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+
+/* ------------------------------------- product  */
+.single-product {
+    border-radius: 5px;
+    box-shadow: 0 5px 10px 2px rgb(220, 201, 201);
+    width: 250px;
+}
+
+.product-image-box {
+    background-color: black !important;
+    width: 250px;
+    height: 250px;
+}
+
+.product-image {
+    display: block;
+}
+
+.product-img-content {
+    z-index: 10;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 0%;
+}
+
+.product-img-content:hover {
+    opacity: 100%;
+    background-color: rgba(125, 35, 35, 0.5);
+}
+
+.product-img-content a {
+    border: 4px solid white;
+    transition: 0.5s ease-out;
+    display: block;
+    font-weight: bolder;
+    color: white !important;
+    padding: 10px 20px;
+    margin: auto;
+}
+
+.product-img-content a:hover {
+    background-color: wheat;
+    color: black;
+    border: 0;
+}
+
+/* ------------------------------- client */
+.client-section {
+    padding: 100px 0;
+    padding-bottom: 200px;
+    background-image: url(https://www.ladesignfashion.com/uploads/aboutus/1652511631.5.jpg);
+    background-attachment: fixed;
+}
+
+/* ------------------------------------ footer  */
+.footer-header h1 {
+    height: 20px;
+}
+
+.footer-header div {
+    width: 100px;
+    height: 1px;
+    background-color: blue;
+    margin-bottom: 20px;
+}
+
+/* ################################### starting about us page @@@@@@@@@@@@@@@@@@@@@@@@@@ */
+
+/* --------------------- main section -------------------------- */
+.aboutus-header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.about-us-header-line {
+    background-color: black;
+    height: 2px;
+}
+
+.about-us-person-card h5 {
+    color: black;
+    font-weight: bolder;
+}
+
+.about-us-person-card p {
+    letter-spacing: 5px;
+    font-size: 15px;
+}
+
+/* ############################ starting news and event ###################### */
+.single-post-a {
+    background-color: black;
+    color: white;
+}
+
+/* ############################ starting contract ###################### */
+.contract-input-field input {
+    border: 1px solid gray;
+}
+
+.contract-input-textarea template {
+    border: 1px solid gray;
+}
+
+.contract-input-submit button {
+    background-color: black;
+    color: white;
+}
+
+/* ############################# product details page start here ##################### */
+.detail-page-button {
+    background-color: black;
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    transition: 0.5s ease-out;
+}
+
+.detail-page-button:hover {
+    background-color: white;
+    color: black;
+}
